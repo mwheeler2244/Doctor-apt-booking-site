@@ -4,7 +4,7 @@ A modern, responsive healthcare platform that connects patients with medical pro
 
 ## 🌐 Live Demo
 
-**Deployed on Vercel:** [Add your Vercel URL here]
+**Deployed on Vercel:** [https://doctor-apt-booking-site-vc8i.vercel.app/]
 
 ## ✨ Features
 
@@ -46,33 +46,6 @@ A modern, responsive healthcare platform that connects patients with medical pro
 - Node.js 18.0 or later
 - npm or yarn package manager
 
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/mwheeler2244/Doctor-apt-booking-site.git
-   cd Doctor-apt-booking-site
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Run the development server**
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the application
 
 ## 📱 Application Structure
 
@@ -110,41 +83,5 @@ app/
 
 _Add screenshots of your application here_
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-## 🔮 Future Enhancements
-
-- [ ] User authentication and profiles
-- [ ] Payment integration
-- [ ] Video consultation features
-- [ ] Prescription management
-- [ ] Electronic health records integration
-- [ ] Multi-language support
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-
-- GitHub: [@mwheeler2244](https://github.com/mwheeler2244)
-- Project Link: [https://github.com/mwheeler2244/Doctor-apt-booking-site](https://github.com/mwheeler2244/Doctor-apt-booking-site)
-
-## 🙏 Acknowledgments
-
-- Next.js team for the amazing framework
-- Tailwind CSS for the utility-first CSS framework
-- Framer Motion for smooth animations
-- Unsplash for placeholder images
-
----
-
-**Built with ❤️ using Next.js and TypeScript**
