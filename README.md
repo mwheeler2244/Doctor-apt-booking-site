@@ -4,7 +4,7 @@ A modern, responsive healthcare platform that connects patients with medical pro
 
 ## 🌐 Live Demo
 
-**Deployed on Vercel:** [https://doctor-apt-booking-site-vc8i.vercel.app/]
+**Deployed on Vercel:** https://doctor-apt-booking-site-vc8i.vercel.app/
 
 ## ✨ Features
 
