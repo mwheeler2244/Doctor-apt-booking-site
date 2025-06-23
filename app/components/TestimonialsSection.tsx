@@ -31,8 +31,8 @@ export default function TestimonialsSection({
             variants={fadeInUp}
             className="text-xl text-gray-600 max-w-3xl mx-auto"
           >
-            Real stories from real patients who've experienced exceptional care
-            through our platform.
+            Real stories from real patients who&apos;ve experienced exceptional
+            care through our platform.
           </motion.p>
         </motion.div>
 

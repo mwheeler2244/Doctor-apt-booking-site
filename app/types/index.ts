@@ -43,8 +43,8 @@ export interface Toast {
   type: "success" | "error" | "info";
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface Variants {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
   hover?: {
     scale?: number;
@@ -59,8 +59,8 @@ export interface Variants {
   };
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface FadeInUpVariant {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
   hidden: {
     opacity: number;
@@ -76,8 +76,8 @@ export interface FadeInUpVariant {
   };
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface StaggerContainerVariant {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
   hidden: {
     opacity: number;
