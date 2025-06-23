@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Doctor With You - Medical Appointment Booking Platform
 
-## Getting Started
+A modern, responsive healthcare platform that connects patients with medical professionals through an intuitive appointment booking system.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Deployed on Vercel:** [Add your Vercel URL here]
+
+## ✨ Features
+
+### 🏥 Core Functionality
+
+- **Doctor Profiles**: Browse detailed profiles of medical specialists with ratings, specialties, and bio information
+- **Smart Appointment Booking**: Intuitive date and time selection with conflict detection
+- **Real-time Messaging**: Direct communication system between patients and doctors
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+
+### 🎨 User Experience
+
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Interactive Notifications**: Real-time toast notifications for user feedback
+- **Mobile-First Design**: Seamless experience across all device sizes
+- **Accessibility**: Built with accessibility best practices
+
+### 🔧 Technical Features
+
+- **Component Architecture**: Well-organized, reusable React components
+- **TypeScript**: Full type safety throughout the application
+- **State Management**: Custom hooks for centralized state management
+- **Animation**: Smooth Framer Motion animations for enhanced user experience
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.3.2
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Font**: Lato (Google Fonts)
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.0 or later
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/mwheeler2244/Doctor-apt-booking-site.git
+   cd Doctor-apt-booking-site
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application
+
+## 📱 Application Structure
+
+```
+app/
+├── components/           # Reusable UI components
+│   ├── Navigation.tsx    # Header and navigation
+│   ├── HeroSection.tsx   # Landing section
+│   ├── FeaturesSection.tsx
+│   ├── SpecialistsSection.tsx
+│   ├── AppointmentModal.tsx
+│   ├── MessageModal.tsx
+│   └── ...
+├── hooks/               # Custom React hooks
+│   └── useAppState.ts   # Centralized state management
+├── types/               # TypeScript type definitions
+│   └── index.ts
+└── page.tsx            # Main application component
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Key Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### State Management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **useAppState Hook**: Centralized state management for doctors, appointments, messages, and UI state
+- **Custom Hooks**: Reusable logic for form handling and data management
 
-## Learn More
+### UI Components
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Navigation**: Mobile-friendly header with dropdown notifications
+- **Interactive Modals**: Appointment booking and messaging interfaces
+- **Animated Sections**: Smooth page transitions and hover effects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+_Add screenshots of your application here_
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔮 Future Enhancements
+
+- [ ] User authentication and profiles
+- [ ] Payment integration
+- [ ] Video consultation features
+- [ ] Prescription management
+- [ ] Electronic health records integration
+- [ ] Multi-language support
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Your Name**
+
+- GitHub: [@mwheeler2244](https://github.com/mwheeler2244)
+- Project Link: [https://github.com/mwheeler2244/Doctor-apt-booking-site](https://github.com/mwheeler2244/Doctor-apt-booking-site)
+
+## 🙏 Acknowledgments
+
+- Next.js team for the amazing framework
+- Tailwind CSS for the utility-first CSS framework
+- Framer Motion for smooth animations
+- Unsplash for placeholder images
+
+---
+
+**Built with ❤️ using Next.js and TypeScript**
