@@ -6,6 +6,10 @@ A modern, responsive healthcare platform that connects patients with medical pro
 
 **Deployed on Vercel:** https://doctor-apt-booking-site-vc8i.vercel.app/
 
+## 📸 Preview
+
+![ChatGPT Clone Screenshot](drss.png)  
+
 ## ✨ Features
 
 ### 🏥 Core Functionality
