@@ -49,9 +49,9 @@ export default function TestimonialsSection({
           >
             <div className="flex text-yellow-400 mb-4">{"★".repeat(5)}</div>
             <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed">
-              "The video consultation was incredibly convenient. Dr. Chen
+              &ldquo;The video consultation was incredibly convenient. Dr. Chen
               diagnosed my condition quickly and provided excellent treatment
-              recommendations. No more waiting rooms!"
+              recommendations. No more waiting rooms!&rdquo;
             </blockquote>
             <div className="flex items-center">
               <img
@@ -72,9 +72,9 @@ export default function TestimonialsSection({
           >
             <div className="flex text-yellow-400 mb-4">{"★".repeat(5)}</div>
             <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed">
-              "As a busy parent, Nova Health has been a lifesaver. I can get
-              expert medical advice for my family without disrupting our
-              schedule. Great experience and I would highly recommend it!"
+              &ldquo;As a busy parent, Nova Health has been a lifesaver. I can
+              get expert medical advice for my family without disrupting our
+              schedule. Great experience and I would highly recommend it!&rdquo;
             </blockquote>
             <div className="flex items-center">
               <img
@@ -95,9 +95,9 @@ export default function TestimonialsSection({
           >
             <div className="flex text-yellow-400 mb-4">{"★".repeat(5)}</div>
             <blockquote className="text-gray-700 mb-6 text-lg leading-relaxed">
-              "The quality of care is exceptional. Dr. Rodriguez took time to
-              explain everything thoroughly. The platform makes healthcare so
-              much more accessible."
+              &ldquo;The quality of care is exceptional. Dr. Rodriguez took time
+              to explain everything thoroughly. The platform makes healthcare so
+              much more accessible.&rdquo;
             </blockquote>
             <div className="flex items-center">
               <img

@@ -43,6 +43,7 @@ export interface Toast {
   type: "success" | "error" | "info";
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface Variants {
   [key: string]: any;
   hover?: {
@@ -58,6 +59,7 @@ export interface Variants {
   };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface FadeInUpVariant {
   [key: string]: any;
   hidden: {
@@ -74,6 +76,7 @@ export interface FadeInUpVariant {
   };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface StaggerContainerVariant {
   [key: string]: any;
   hidden: {
